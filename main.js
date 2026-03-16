@@ -50,7 +50,7 @@
 // console.log(now);
 
 // const num = [1,2,3];
-// num[0] = 10; 
+// num[0] = 10;
 // console.log(num);
 
 // const perdson = {name: "Daria" , age: 18};
@@ -106,8 +106,73 @@
 // console.log(t * w);
 // console.log(t / w);
 
-let a2 = 2;
-let b2 = 4;
-let sum2 = a2 + b2;
-let sum = a2 * b2;
-console.log(sum2 , sum)
+// let a2 = 2;
+// let b2 = 4;
+// let sum2 = a2 + b2;
+// let sum = a2 * b2;
+// console.log(sum2 , sum)
+
+// let age = 18;
+// if (age >= 18){
+//     console.log("Доступ разрешен");
+// } else {
+//     console.log("Досту запрещен");
+// }
+
+
+
+
+
+
+// let tem = 12;
+
+// if (tem <= 0) {
+//     console.log("Холодно");
+// } else if (tem < 20) {
+//     console.log("прохладно");
+// } else {
+//     console.log("тепло");
+// }
+
+// let isLoggedIn = true;
+// let isAdmin = true;
+// if (isAdmin && isLoggedIn === true){
+//     console.log("Полный доступ");
+// } else if (isLoggedIn === true) {
+//    console.log("Ограниченный доступ");
+// }else{
+//     console.log("Доступ запрещён");
+// }
+
+// let a3 = 10;
+// let b3 = "10";
+// console.log(a3 == b3); //Нестрогое сравнения
+// console.log(a3 === b3); //строгое сравнения
+
+
+
+// let day = 3;
+// switch (day) {
+//     case 1: console.log("Понедельник"); break;
+//     case 2: console.log("Вторник");break;
+//     case 2: console.log("Среда");break;
+//     default: console.log("Неизвестный день");
+// }
+
+
+let monthNumber = 5;
+switch (day) {
+    case 1: console.log("январь"); break;
+    case 2: console.log("февраль");break;
+    case 3: console.log("март");break;
+    case 4: console.log("апрель");break;
+    case 5: console.log("май");break;
+    case 6: console.log("июнь");break;
+    case 7: console.log("июль");break;
+    case 8: console.log("август");break;
+    case 9: console.log("сентябрь");break;
+    case 10: console.log("октябрь");break;
+    case 11: console.log("ноябрь");break;
+    case 12: console.log("Срдекабрьеда");break;
+    default: console.log("Неизвестный месяц");
+}
