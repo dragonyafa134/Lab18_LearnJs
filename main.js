@@ -67,21 +67,33 @@
 // console.log(typeof newPricr);
 
 
-//в строку
-let num = 42;
-let str = String(num);
-let srt2 = num.String();
-let str3 = ""+ num;
-//в число
-let strNum = "123";
-let int = Number(strNum);
-let int2 = parseInt("43.3");
-let float = parseFloat("23.32");
-let in3 = +"99";
-//в будевое значения
-let bool1 = Boolean(1);
-let bool2 = !!1;
-let bool3 = Boolean(0);
-let bool4 = Boolean("");
+// //в строку
+// let num = 42;
+// let str = String(num);
+// let srt2 = num.String();
+// let str3 = ""+ num;
+// //в число
+// let strNum = "123";
+// let int = Number(strNum);
+// let int2 = parseInt("43.3");
+// let float = parseFloat("23.32");
+// let in3 = +"99";
+// //в будевое значения
+// let bool1 = Boolean(1);
+// let bool2 = !!1;
+// let bool3 = Boolean(0);
+// let bool4 = Boolean("");
 
 
+
+console.log(5 == "5");
+console.log(5 === "5");
+console.log(0 == false);
+console.log(0 === false);
+
+
+let obj1 = {name: "John"};
+let obj2 = {name: "John"};
+
+console.log(obj1 == obj2);
+console.log(obj1 === obj2);
