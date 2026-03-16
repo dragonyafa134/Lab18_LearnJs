@@ -86,14 +86,22 @@
 
 
 
-console.log(5 == "5");
-console.log(5 === "5");
-console.log(0 == false);
-console.log(0 === false);
+// console.log(5 == "5");
+// console.log(5 === "5");
+// console.log(0 == false);
+// console.log(0 === false);
 
 
-let obj1 = {name: "John"};
-let obj2 = {name: "John"};
+// let obj1 = {name: "John"};
+// let obj2 = {name: "John"};
 
-console.log(obj1 == obj2);
-console.log(obj1 === obj2);
+// console.log(obj1 == obj2);
+// console.log(obj1 === obj2);
+
+
+let x1 = 10;
+let x2 = 2;
+console.log(x1 + x2);
+console.log(x1 - x2);
+console.log(x1 * x2);
+console.log(x1 / x2);
