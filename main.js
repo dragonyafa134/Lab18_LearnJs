@@ -53,7 +53,15 @@
 // num[0] = 10; 
 // console.log(num);
 
-const perdson = {name: "Daria" , age: 18};
-perdson.age = 19;
-perdson.citu = "Volgograd";
-console.log(perdson);
+// const perdson = {name: "Daria" , age: 18};
+// perdson.age = 19;
+// perdson.citu = "Volgograd";
+// console.log(perdson);
+
+
+let newPricr = 10;
+console.log(newPricr);
+console.log(typeof newPricr);
+newPricr = "строка";
+console.log(newPricr);
+console.log(typeof newPricr);
