@@ -99,9 +99,15 @@
 // console.log(obj1 === obj2);
 
 
-let x1 = 10;
-let x2 = 2;
-console.log(x1 + x2);
-console.log(x1 - x2);
-console.log(x1 * x2);
-console.log(x1 / x2);
+// let t = 10;
+// let w = 2;
+// console.log(t + w);
+// console.log(t - w);
+// console.log(t * w);
+// console.log(t / w);
+
+let a2 = 2;
+let b2 = 4;
+let sum2 = a2 + b2;
+let sum = a2 * b2;
+console.log(sum2 , sum)
